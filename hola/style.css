@@ -1,0 +1,89 @@
+body 
+{
+   background-image: url("png/7-maravillas-Cristo-Redentor-Brasil.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+      
+}
+
+/***menu**/
+.menu ul
+{
+    width: 80%;
+    height: 10%;
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    list-style-type: none;
+    text-align: center;
+}
+.menu li
+{
+    display: inline;
+    text-align: center;
+    margin: 0 20px 0 0;
+}
+.menu a 
+{
+    text-decoration: none;
+    color: #000000;
+    margin: 5px 10px 5px 10px;
+    font-size: 40px;
+    font-family: 'Pathway Extreme', sans-serif;
+    
+}
+/**title**/
+header
+{
+    font-size:50px;
+    font-family: 'Pathway Extreme', sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+/**Brasil**/
+.Brasil
+{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    height: 12%;
+    width: 60%;
+    top: 30%;
+    left: 20%;
+}
+/**img1**/
+.img1
+{
+    width: 20%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+    position: absolute;
+    top: -5%;
+    left: -1%;
+}
+/**texto**/
+.p1
+{
+    position:absolute;
+    top: 33%;
+    left: 38%;
+}
+/**icono**/
+.copia
+{
+    width: 1%;
+    height: 2%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+    position: absolute;
+    left: 78%;
+    top: 43%;
+
+}

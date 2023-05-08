@@ -3,87 +3,405 @@ body
    background-image: url("png/7-maravillas-Cristo-Redentor-Brasil.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-      
+   overflow-y: scroll;      
 }
 
-/***menu**/
-.menu ul
-{
-    width: 80%;
-    height: 10%;
-    margin: 20px;
-    padding: 20px;
-    position: absolute;
-    top: 15%;
-    left: 7%;
-    list-style-type: none;
-    text-align: center;
-}
-.menu li
-{
-    display: inline;
-    text-align: center;
-    margin: 0 20px 0 0;
-}
-.menu a 
-{
-    text-decoration: none;
-    color: #000000;
-    margin: 5px 10px 5px 10px;
-    font-size: 40px;
-    font-family: 'Pathway Extreme', sans-serif;
-    
-}
 /**title**/
 header
 {
     font-size:50px;
     font-family: 'Pathway Extreme', sans-serif;
     position: absolute;
-    top: 5%;
-    left: 5%;
-}
-/**Brasil**/
-.Brasil
-{
-    background-color: #ffffff;
+    top: 2%;
+    left: 25%;
     margin: 20px;
-    padding: 20px;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/**imagen**/
+.con
+{
+    background-image:  url("png/sao\ paulo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+    -webkit-transition:opacity 0.2s;
+    margin: 30px;
     position: absolute;
-    height: 12%;
-    width: 60%;
+    left: 15%;
     top: 30%;
-    left: 20%;
+    
 }
-/**img1**/
-.img1
+.info
 {
-    width: 20%;
-    height: 80%;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: none;
     position: absolute;
-    top: -5%;
-    left: -1%;
+    overflow:hidden;
+    width: 450px;
+    height: 250px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
 }
-/**texto**/
-.p1
-{
-    position:absolute;
-    top: 33%;
-    left: 38%;
+.con:hover .info
+{ 
+    opacity: 1;
+    
 }
-/**icono**/
-.copia
+p.ti
 {
-    width: 1%;
-    height: 2%;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: none;
     position: absolute;
-    left: 78%;
-    top: 43%;
+    -webkit-transition: margin 0.2s;
+    margin-left: -40px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.con:hover p.ti
+{
+    margin-left: 40px;
+}
+p.parra
+{
+    position: absolute;
+    -webkit-transition: margin 0.2s;
+    margin-top: -70px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.con:hover p.parra
+{
+    margin-top: 70px;
+}
+/**imagen USA**/
+.con1
+{
+    background-image:  url("png/lugares-turisticos-de-estados-unidos-02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+    -webkit-transition:opacity 0.2s;
+    margin: 30px;
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    
+}
+.info1
+{
+    position: absolute;
+    overflow:hidden;
+    width: 450px;
+    height: 250px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+}
+.con1:hover .info1
+{ 
+    opacity: 1;
+    
+}
+p.ti1
+{
+    position: absolute;
+    -webkit-transition: margin 0.2s;
+    margin-left: -40px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.con1:hover p.ti1
+{
+    margin-left: 40px;
+}
+p.parra1
+{
+    position: absolute;
+    -webkit-transition: margin 0.2s;
+    margin-top: -70px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.con1:hover p.parra1
+{
+    margin-top: 70px;
+}
+/**imagen Spanis**/
+.con2
+{
+    background-image:  url("png/98.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+    -webkit-transition:opacity 0.2s;
+    margin: 30px;
+    position: absolute;
+    left: 15%;
+    top: 75%;
+    
+}
+.info2
+{
+    position: absolute;
+    overflow:hidden;
+    width: 450px;
+    height: 250px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+}
+.con2:hover .info2
+{ 
+    opacity: 1;
+    
+}
+p.ti2
+{
+    position: absolute;
+    -webkit-transition: margin 0.2s;
+    margin-left: -40px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.con2:hover p.ti2
+{
+    margin-left: 40px;
+}
+p.parra2
+{
+    position: absolute;
+    -webkit-transition: margin 0.2s;
+    margin-top: -70px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.con2:hover p.parra2
+{
+    margin-top: 70px;
+}
+/**imagen Ruia**/
+.con3
+{
+    background-image:  url("png/moscu-760x500.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 250px;
+    -webkit-transition:opacity 0.2s;
+    margin: 30px;
+    position: absolute;
+    left: 55%;
+    top: 75%;
+    
+}
+.info3
+{
+    position: absolute;
+    overflow:hidden;
+    width: 450px;
+    height: 250px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+}
+.con3:hover .info3
+{ 
+    opacity: 1;
+    
+}
+p.ti3
+{
+    position: absolute;
+    -webkit-transition: margin 0.2s;
+    margin-left: -40px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.con3:hover p.ti3
+{
+    margin-left: 40px;
+}
+p.parra3
+{
+    position: absolute;
+    -webkit-transition: margin 0.2s;
+    margin-top: -70px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.con3:hover p.parra3
+{
+    margin-top: 70px;
+}
+/**menu**/
+.menu
+{
+    position: absolute;
+    width: 65px;
+    height: 140%;
+    background-color: #2f3030;
+    overflow: hidden;
+}
+.menu:hover
+{
+    width: 200px;
+}
+.logo
+{
+    width: 50px;
+    height: 40px;
+    margin: 10px;
 
 }
+.c1
+{
+    width: 180px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#general
+{
+    margin-top: 150px;
+}
+.logo1
+{ 
+    position: absolute;
+    width: 10x;
+    height: 40px;
+    margin: 5px;
+    float: left;  
+}
+a.text1
+{
+    text-decoration: none;
+    color: #000000;
+    position: absolute;
+    left: 80px;
+    padding-top: 15px;
+}
+/**mas**/
+.mas
+{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #ff6600;
+    margin-top: 63%;
+    overflow: hidden;
+}
+.blanco
+{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color:#ffffffff;
+    margin-top: 5%;
+}
+.mas:hover
+{
+    height: 700px;
+}
+
+ /**restaurante**/
+ .con4
+ {
+     background-image:  url("png/moscu-760x500.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 450px;
+     height: 250px;
+     -webkit-transition:opacity 0.2s;
+     margin: 30px;
+     position: absolute;
+     left: 55%;
+     top: 10%;
+     
+ }
+ .info4
+ {
+     position: absolute;
+     overflow:hidden;
+     width: 450px;
+     height: 250px;
+     background-color: rgba(31, 31, 31, 0.9);
+     opacity: 0;
+ }
+ .con4:hover .info4
+ { 
+     opacity: 1;
+     
+ }
+ p.ti4
+ {
+     position: absolute;
+     -webkit-transition: margin 0.2s;
+     margin-left: -40px;
+     font-size: 21px;
+     margin-top: 20px;
+ }
+ .con4:hover p.ti4
+ {
+     margin-left: 40px;
+ }
+ p.parra4
+ {
+     position: absolute;
+     -webkit-transition: margin 0.2s;
+     margin-top: -70px;
+     font-size: 15px;
+     margin-left: 40px;
+ }
+ .con4:hover p.parra4
+ {
+     margin-top: 70px;
+ }
+   
+   
+/**boton de busqueda**/
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5%;
+    position:absolute;
+    left: 50%;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    transition: border-bottom-color 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:hover,
+  input[type="text"]:focus {
+    border-bottom-color: #555;
+  }
+  
+  button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="submit"]:focus {
+    color: #555;
+    transform: rotate(45deg);
+  }
+  /**p**/
+  p#num
+  {
+    font-size: 30px;
+   
+    position: absolute;
+    margin: 1%;
+    left: 50%;
+    
+
+  }
+ 

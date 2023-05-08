@@ -1,1 +1,1 @@
-ipt
+https://www.tripadvisor.com/Search?q=sao%20paulo&searchSessionId=00083ee8e08bf0a5.ssid&searchNearby=false&sid=03E74F442ED14999A42C37150BA7F4161683393203682&blockRedirect=true&geo=1

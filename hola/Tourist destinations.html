@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike Explores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body 
+{
+   background-image: url("png/7-maravillas-Cristo-Redentor-Brasil.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow-y: scroll;      
+}
+
+/**title**/
+header
+{
+    font-size:50px;
+    font-family: 'Pathway Extreme', sans-serif;
+    position: absolute;
+    top: 2%;
+    left: 25%;
+    margin: 20px;
+}
+/**menu**/
+.menu
+{
+    position: absolute;
+    width: 65px;
+    height: 140%;
+    background-color: #2f3030;
+    overflow: hidden;
+}
+.menu:hover
+{
+    width: 200px;
+}
+.logo
+{
+    width: 50px;
+    height: 40px;
+    margin: 10px;
+
+}
+.c1
+{
+    width: 180px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#general
+{
+    margin-top: 150px;
+}
+.logo1
+{ 
+    position: absolute;
+    width: 10x;
+    height: 40px;
+    margin: 5px;
+    float: left;  
+}
+a.text1
+{
+    text-decoration: none;
+    color: #000000;
+    position: absolute;
+    left: 80px;
+    padding-top: 15px;
+}
+/**boton de busqueda**/
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5%;
+    position:absolute;
+    left: 50%;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    transition: border-bottom-color 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:hover,
+  input[type="text"]:focus {
+    border-bottom-color: #555;
+  }
+  
+  button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="submit"]:focus {
+    color: #555;
+    transform: rotate(45deg);
+  }
+  /**galeria brasil**/
+  section
+  {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+  }
+  section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section img:hover
+  {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  /**galeria USA**/
+  section#hola
+  {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+  }
+  section#hola img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section#hola img:hover
+  {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  /**galeria españa**/
+  section#hola1
+  {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 20%;
+    top: 80%;
+  }
+  section#hola1 img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section#hola1 img:hover
+  {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  /**galeria russia**/
+  section#hola2
+  {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 60%;
+    top: 80%;
+  }
+  section#hola2 img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section#hola2 img:hover
+  {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+   /**localisacion**/
+  .barra
+  {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: #ff6633;
+    top: 63%;
+    transform: rotate(360deg);
+    transform: transform 0.3 ease-in-out;
+    overflow: hidden;
+    
+  }
+ 
+  p#c1001
+  {
+    font-size: 30px;
+    transform: rotate(180deg);
+    padding-left: 10%;
+    margin-top: 1%;
+  }
+  .c1002
+  {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffffff;
+    transform: rotate(180deg);
+    margin-top: 2%;
+  }
+  .barra:hover{
+    transform: rotate(-180);
+    height: 500px;
+  }
+</style>
+    <body>
+        <header>Fly With Mike</header>
+                <div class="menu">
+                    <img class="logo" src="png/menú.png">
+                    <div id="general" class="c1">
+                        <div class="logo1">
+                            <img src="png/menú.png" width="40px" height="40px">
+                        </div>
+                        <a class="text1" href="web pagina.html">Home</a>
+                    </div>
+                    <div class="c1">
+                        <div class="logo1"> 
+                            <img src="png/menú.png" width="40px" height="40px">
+                        </div>
+                        <a class="text1" href="Tourist destinations.html">Tourist destinations</a>
+                    </div>
+                    <div class="c1">
+                        <div class="logo1">
+                            <img src="png/menú.png" width="40px" height="40px">
+                        </div>
+                        <a class="text1" href="Airlines.html">Airlines</a>
+                    </div>
+                    <div class="c1">
+                        <div class="logo1">
+                            <img src="png/menú.png" width="40px" height="40px">
+                        </div>
+                        <a class="text1" href="Hoteles.html">Hoteles</a>
+                    </div>
+                    <div class="c1">
+                        <div class="logo1">
+                            <img src="png/menú.png" width="40px" height="40px">
+                        </div>
+                        <a class="text1" href="Cars.html">Cars</a>
+                    </div>
+                </div> 
+                <form>
+                    <input type="text" placeholder="Buscar...">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  <section>
+                    <img src="png/7-maravillas-Cristo-Redentor-Brasil.jpg">
+                    <img src="png/98.webp">
+                    <img src="png/br_gru_ciudad_2880_1620_03.avif">
+                    <img src="png/Kremlin-Rusia-2018.avif">
+                    <img src="png/lugares-turisticos-de-estados-unidos-02.jpg">
+                  </section>
+                  <section id="hola">
+                    <img src="png/7-maravillas-Cristo-Redentor-Brasil.jpg">
+                    <img src="png/98.webp">
+                    <img src="png/br_gru_ciudad_2880_1620_03.avif">
+                    <img src="png/Kremlin-Rusia-2018.avif">
+                    <img src="png/lugares-turisticos-de-estados-unidos-02.jpg">
+                  </section>
+                  <section id="hola1">
+                    <img src="png/7-maravillas-Cristo-Redentor-Brasil.jpg">
+                    <img src="png/98.webp">
+                    <img src="png/br_gru_ciudad_2880_1620_03.avif">
+                    <img src="png/Kremlin-Rusia-2018.avif">
+                    <img src="png/lugares-turisticos-de-estados-unidos-02.jpg">
+                  </section>
+                  <section id="hola2">
+                    <img src="png/7-maravillas-Cristo-Redentor-Brasil.jpg">
+                    <img src="png/98.webp">
+                    <img src="png/br_gru_ciudad_2880_1620_03.avif">
+                    <img src="png/Kremlin-Rusia-2018.avif">
+                    <img src="png/lugares-turisticos-de-estados-unidos-02.jpg">
+                  </section>
+                  <div class="barra">
+                    <p id="c1001">Location</p>
+                    <div class="c1002">
+                        <p>hola</p>
+                    </div>
+                  </div>
+    </body>
+</html>
